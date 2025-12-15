@@ -1,25 +1,16 @@
-*.py[co]
+# --- Python ---
 __pycache__/
-*~
-[#]*[#]
-.*.swp
-.*.swo
-.*.swn
-.~
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- Mac/OS Files ---
 .DS_Store
-/tmp/
-/.venv/
-/dist/
-/*.egg-info/
-/.tox/
-/bin/
-/develop-eggs/
-/eggs/
-.installed.cfg
-logging.conf
-*.log
-.coverage
-/statedb/
-peers.json
-pyethereum/todo.txt
-pyethereum/monkeypatch.py
+
+# --- IDEs ---
+.vscode/
+.idea/
